@@ -3,7 +3,7 @@ import '../App.css';
 
 function Footer() {
   return (
-    <footer className="page-footer">
+  <footer className="page-footer">
     <div className="footer-copyright">
       <div className="container">
       © 2024 Copyright Text
