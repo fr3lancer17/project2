@@ -4,6 +4,7 @@ function Quote() {
 
   return (
 
+    <main>
     <div className='container'>
       <div className="row">
       <form className="col s12">
@@ -37,7 +38,7 @@ function Quote() {
       </form>
     </div>
     </div>
-
+    </main>
   );
 }
 
