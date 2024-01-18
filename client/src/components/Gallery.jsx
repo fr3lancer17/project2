@@ -10,6 +10,8 @@ function Gallery() {
   }, []);
 
   return (
+
+    <main>
       <div className='container'>
         <div className="slider">
         <ul className="slides">
@@ -44,6 +46,7 @@ function Gallery() {
         </ul>
       </div>
     </div>
+    </main>
   );
 }
 
