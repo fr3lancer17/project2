@@ -1,8 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 function Navbar() {
+
+  useEffect(() => {
+    var sidenav = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(sidenav, {});
+  }, []);
+
   return (
     <>  
     <nav>
@@ -13,7 +20,6 @@ function Navbar() {
         <li className="nav-item">
           <Link
             to="/"
-            end
           >
             Home
           </Link>
@@ -35,7 +41,7 @@ function Navbar() {
         <li className="nav-item">
           <Link
             to="gallery"
-            end
+            
           >
             Gallery
           </Link>
@@ -59,10 +65,12 @@ function Navbar() {
     </nav>
 
       <ul className="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li> <Link to="/" end >Home</Link> /</li>
+      <li> <Link to="about" > About </Link> </li>
+      <li> <Link to="services" > Services </Link> </li>
+      <li> <Link to="gallery" > Gallery </Link> </li>
+      <li> <Link to="quote" > Quote </Link> </li>
+      <li> <Link to="contact" > Contact </Link> </li>
       </ul>
     </>
   );
