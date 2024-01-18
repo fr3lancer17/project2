@@ -8,7 +8,8 @@ import Services from './components/Services.jsx';
 import Gallery from './components/Gallery.jsx';
 import Quote from './components/Quote.jsx';
 import Contact from './components/Contact.jsx';
-
+import Footer from './components/Footer.jsx';
+import './App.css';
 
 
 function App() {
@@ -38,7 +39,9 @@ function App() {
         <Route path="quote" element={<Quote />} />
         <Route path="contact/*" element={<Contact />} />
       </Routes>
+      <Footer/>
     </Router>
+    
   )
 }
 
