@@ -5,11 +5,6 @@ import '../App.css';
 
 function Header() {
   
-  useEffect(() => {
-    var sidenav = document.querySelectorAll(".sidenav");
-    M.Sidenav.init(sidenav, {});
-  }, []);
-
   return (
     <nav>
     <div className="nav-wrapper">
