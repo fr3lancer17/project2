@@ -12,11 +12,7 @@
   },
   "dependencies": {
     "axios": "^1.6.5",
-<<<<<<< HEAD
     "materialize-css": "^1.0.0",
-=======
-    "materialize-css": "^1.0.0-rc.2",
->>>>>>> 12deaa53403abdf7b2172b0a784a614a07d2cdc5
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.21.2",

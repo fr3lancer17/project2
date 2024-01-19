@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 
 function Navbar() {
-<<<<<<< HEAD
+
   const styles = {
     div: {
       display: 'flex',
@@ -70,7 +70,7 @@ function Navbar() {
       </li>
     </ul>
     </div>
-=======
+  )
 
   useEffect(() => {
     var sidenav = document.querySelectorAll(".sidenav");
@@ -140,7 +140,6 @@ function Navbar() {
       <li> <Link to="contact" > Contact </Link> </li>
       </ul>
     </>
->>>>>>> 12deaa53403abdf7b2172b0a784a614a07d2cdc5
   );
 }
 
