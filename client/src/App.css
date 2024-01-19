@@ -13,3 +13,7 @@ main {
     min-height: 100vh;
     flex-direction: column;
 }
+
+.logo-details{
+    padding: 15px;
+}

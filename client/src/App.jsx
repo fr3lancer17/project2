@@ -29,6 +29,7 @@ function App() {
 
   return (
     <Router>
+      <Header/>
       <Navbar />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
