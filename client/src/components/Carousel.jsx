@@ -25,6 +25,7 @@ const Carousel = () => {
         });
 
         setImages(response.data.results);
+        
       } catch (error) {
         console.error('Error fetching data from Unsplash:', error);
       }
@@ -44,12 +45,11 @@ const Carousel = () => {
     centerMode: true, // Enable center mode
     centerPadding: '30%',
   };
-
   return (
-    <div className="carousel-container">
-      
-      <Slider {...settings}>
     
+    <div className="carousel-container">
+      <Slider {...settings}>
+      
         {images.map(image => (
           <div key={image.id} className="carousel-item">
            

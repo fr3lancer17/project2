@@ -6,3 +6,11 @@ Content-Type: application/json
 {
     "text": "Get the bread"
 }
+
+### 
+DELETE http://localhost:3001/todo/delete
+###
+GET http://localhost:3001/zmXlFBmzUt_Jx5BsLW1909vUd_dE5ZwMkr1Lyuvmw00/aBDqonfTK1fKR6A67UP4vLgSWwvBZaIwqTC0HEXBxU0
+
+###
+GET https://api.unsplash.com/photos/zmXlFBmzUt_Jx5BsLW1909vUd_dE5ZwMkr1Lyuvmw00
