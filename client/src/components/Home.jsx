@@ -1,12 +1,10 @@
 import React from 'react';
-import Jumbotron from './Jumbotron';
+import Carousel from './Carousel';
 function Home() {
   return (
     <main>
     <div>
-      <h1>Home Page</h1>
-      <img src="" alt=""></img>
-      <Jumbotron title="Work"/>
+      <Carousel/>
     </div>
     </main>
   );
