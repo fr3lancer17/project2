@@ -1,11 +1,15 @@
 import React from 'react';
 
 function Quote() {
+  const handleClick = () => {
+    // Handle the click event here
+    console.log('Button clicked!');
+  };
 
   return (
 
     <main>
-    <div className='container'>
+    <div className='container' style={{ marginTop: '100px' }}>
       <div className="row">
       <form className="col s12">
         <div className="row">
@@ -32,9 +36,10 @@ function Quote() {
             <div className="row">
               <div className="input-field col s12">
                 <textarea id="textarea1" className="materialize-textarea"></textarea>
-                <label for="textarea1">Textarea</label>
+                <label for="textarea1">Inquiry</label>
               </div>
         </div>
+        <button className="btn waves-effect waves-light" type="button" onClick={handleClick}>Submit</button>
       </form>
     </div>
     </div>
