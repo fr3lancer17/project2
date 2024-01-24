@@ -6,7 +6,6 @@ import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import Gallery from './components/Gallery.jsx';
-import Quote from './components/Quote.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import './App.css';
