@@ -11,6 +11,7 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import './App.css';
 
+
 function App() {
   const [backendData, setBackendData] = useState([{}])
   useEffect(() => {
