@@ -2,6 +2,7 @@ import React from 'react';
 
 function Services() {
   return (
+    <main>
     <div className="container" style={{ marginTop: '50px' }}>
      <div className="materials">
            <h4>Quality Materials</h4>
@@ -24,7 +25,8 @@ function Services() {
         <li>Wallpaper Hanging</li>
       </ul>
     </div>
-  </div>  
+  </div>
+  </main>
   );
 }
 
