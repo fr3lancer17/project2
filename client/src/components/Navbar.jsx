@@ -10,9 +10,12 @@ function Navbar() {
     M.Sidenav.init(sidenav, {});
   }, []);
 
+  const materialsStyleNavbar = { backgroundColor: '#748F93'};
+
   return (
-    <>  
-    <nav>
+    
+    <>
+    <nav style={materialsStyleNavbar}>
     <div className="nav-wrapper">
       <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <ul className="left hide-on-med-and-down">
@@ -71,7 +74,7 @@ function Navbar() {
         <li> <Link to="quote" > Quote </Link> </li>
         <li> <Link to="contact" > Contact </Link> </li>
       </ul>
-    </>
+      </>
   );
 }
 
