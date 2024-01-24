@@ -1,3 +1,16 @@
-GET  http://localhost:3001/
+GET http://localhost:3001/todos
+
+### 
+POST  http://localhost:3001/todo/new
+Content-Type: application/json
+{
+    "text": "Get the bread"
+}
+
+### 
+DELETE http://localhost:3001/todo/delete
 ###
-GET 127.0.0.1:27017
+GET http://localhost:3001/zmXlFBmzUt_Jx5BsLW1909vUd_dE5ZwMkr1Lyuvmw00/aBDqonfTK1fKR6A67UP4vLgSWwvBZaIwqTC0HEXBxU0
+
+###
+GET https://api.unsplash.com/photos/zmXlFBmzUt_Jx5BsLW1909vUd_dE5ZwMkr1Lyuvmw00
