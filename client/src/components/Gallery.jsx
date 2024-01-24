@@ -9,14 +9,15 @@ function Gallery() {
     M.Slider.init(slider, {});
   }, []);
 
-  return (
 
-    <main>
+
+   return( 
+   <main>
       <div className='container'>
         <div className="slider">
         <ul className="slides">
           <li>
-            <img src="https://cdn.pixabay.com/photo/2018/10/05/14/39/sunset-3726030_640.jpg"/>
+            <img src={"../images/image1.jpg"}/>
             <div className="caption center-align">
               <h3>This is our big Tagline!</h3>
               <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
