@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react', 'react-materialize', 'react-dom/client'],
+      external: ['react', 'react-materialize', 'react-dom'],
     },
   },
 })
