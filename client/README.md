@@ -38,4 +38,5 @@ React Slick enables the creation of customizable and feature-rich sliders and ca
 Materialize CSS is a modern responsive CSS framework based on Google's Material Design.
 Materialize CSS offers pre-styled components and utilities for building visually appealing and responsive user interfaces.
 
+[![readme screenshot](/client/src/images/Screenshot%202024-01-25%20182712.png)]
 

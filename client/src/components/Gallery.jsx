@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-
+import GalleryCarousel from './GalleryCarousel';
 function Gallery() {
 
   useEffect(() => {
@@ -13,7 +13,8 @@ function Gallery() {
 
    return( 
    <main>
-      <div className='container'>
+    <GalleryCarousel />
+      {/* <div className='container'>
         <div className="slider">
         <ul className="slides">
           <li>
@@ -46,7 +47,7 @@ function Gallery() {
           </li>
         </ul>
       </div>
-    </div>
+    </div> */}
     </main>
   );
 }
